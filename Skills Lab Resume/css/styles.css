@@ -1,3 +1,42 @@
+/* COlor Palette
+#EFF1F3 - White
+#223843 - Indigo Blue
+#A7CDBD - Turquoise Green
+#BBE1C3 - Seafoam Green
+#424B54 - Space Gray
+*/
+
+/*Global Styles
+--------------------------*/
 body{
-    background: lightblue;
+
 }
+a{
+    color:#223843;    
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* Header and Footer Styles
+--------------------------*/
+header{
+    background: #A7CDBD;
+    color: #EFF1F3;
+}
+footer{
+    background: #BBE1C3;
+    color: #EFF1F3;
+    }
+}
+
+
+/* Work Experience Styles
+--------------------------*/
+.work, .education{
+    background: #EFF1F3;
+}
+
+
+/* Education Styles
+--------------------------*/
