@@ -132,8 +132,33 @@ footer p{
 .work, .education{
     background: #EFF1F3;
     font-family: 'Trueno Light';
+    
 }
 
+h3 ~ p{
+    margin: 0;
+    padding: 0;
+}
 
+h4{
+    padding: 0px;
+    margin: 0px;
+}
+
+.education h3{
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+.education h3:first-of-type{
+    margin-top: 0;
+}
+
+.column h3{
+    padding-top: 25px;
+}
+.column-1 h3:first-of-type{
+    padding-top: 0px;
+}
 /* Education Styles
 --------------------------*/
