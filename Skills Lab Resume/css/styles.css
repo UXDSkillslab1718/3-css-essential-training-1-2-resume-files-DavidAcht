@@ -6,6 +6,25 @@
 #424B54 - Space Gray
 */
 
+@font-face{
+    font-family: 'Trueno Semi Bold';
+    src: url(../fonts/TruenoSBd_3.otf);
+}
+@font-face{
+    font-family: 'Trueno Ultra Black';
+    src: url(../fonts/TruenoUltBlk_0.otf);
+    }
+@font-face{
+    font-family: 'Trueno Ultra Light';
+    src: url(../fonts/TruenoUltLt_3.otf);
+}
+@font-face{
+        font-family: 'Trueno Light';
+    src: url(../fonts/TruenoLt_4.otf);
+}
+
+
+
 /*Global Styles
 --------------------------*/
 body{
@@ -18,23 +37,65 @@ a:hover {
     text-decoration: none;
 }
 
+p {
+    font-family: 'Trueno Ultra Light';
+    color: #424B54;
+}
+
+h2{
+    font-family: 'Trueno Ultra Black';
+    color: #424B54;
+}
+
+h3{
+    font-family: 'Trueno Light';
+    color: #424B54;
+}
+
+h4{
+    font-family: 'Trueno Light';
+    color: #424B54;
+}
+
+ul{
+    font-family: 'Trueno Light';
+    color: #424B54;    
+}
 /* Header and Footer Styles
 --------------------------*/
 header{
     background: #A7CDBD;
     color: #EFF1F3;
+    font-family: 'Trueno Semi Bold';
+}
+
+header h2{
+    font-family: 'Trueno Semi Bold';
+    color: #EFF1F3;
+}
+
+header p{
+    color: #EFF1F3; 
 }
 footer{
     background: #BBE1C3;
     color: #EFF1F3;
     }
+footer h2{
+    font-family: 'Trueno Semi Bold';
+    color: #EFF1F3;
 }
 
+footer a{
+    font-family: 'Trueno Light';
+    color: #EFF1F3;
+}
 
 /* Work Experience Styles
 --------------------------*/
 .work, .education{
     background: #EFF1F3;
+    font-family: 'Trueno Light';
 }
 
 
